@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#quiz {
+    margin-top: 5%;
+
+}
+
+button {
+    display: block;
+    width: 300px;
+    padding: 10px;
+}
+
+.resposta {
+    margin: auto auto;
+    margin-bottom: 1%;
+}
+
+#confirm{
+    margin: auto auto;
+    margin-top: 5%;
+    background-color: #228B22;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffff;
+}
+
+#confirm:hover{
+    background-color: #008000;
+}
