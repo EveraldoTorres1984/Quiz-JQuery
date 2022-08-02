@@ -1,0 +1,1547 @@
+2022/07/15 14:55:42 [notice] 1#1: using the "epoll" event method
+2022/07/15 14:55:42 [notice] 1#1: nginx/1.20.0
+2022/07/15 14:55:42 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/15 14:55:42 [notice] 1#1: OS: Linux 5.15.0-41-generic
+2022/07/15 14:55:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/15 14:55:42 [notice] 1#1: start worker processes
+2022/07/15 14:55:42 [notice] 1#1: start worker process 31
+2022/07/15 14:55:42 [notice] 1#1: start worker process 32
+2022/07/15 14:55:42 [notice] 1#1: start worker process 33
+2022/07/15 14:55:42 [notice] 1#1: start worker process 34
+2022/07/15 14:55:42 [notice] 1#1: start worker process 35
+2022/07/15 14:55:42 [notice] 1#1: start worker process 36
+2022/07/15 14:55:42 [notice] 1#1: start worker process 37
+2022/07/15 14:55:42 [notice] 1#1: start worker process 38
+2022/07/15 14:57:40 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/15 14:57:40 [notice] 32#32: gracefully shutting down
+2022/07/15 14:57:40 [notice] 33#33: gracefully shutting down
+2022/07/15 14:57:40 [notice] 31#31: gracefully shutting down
+2022/07/15 14:57:40 [notice] 35#35: gracefully shutting down
+2022/07/15 14:57:40 [notice] 34#34: gracefully shutting down
+2022/07/15 14:57:40 [notice] 36#36: gracefully shutting down
+2022/07/15 14:57:40 [notice] 33#33: exiting
+2022/07/15 14:57:40 [notice] 37#37: gracefully shutting down
+2022/07/15 14:57:40 [notice] 31#31: exiting
+2022/07/15 14:57:40 [notice] 35#35: exiting
+2022/07/15 14:57:40 [notice] 34#34: exiting
+2022/07/15 14:57:40 [notice] 36#36: exiting
+2022/07/15 14:57:40 [notice] 32#32: exiting
+2022/07/15 14:57:40 [notice] 37#37: exiting
+2022/07/15 14:57:40 [notice] 35#35: exit
+2022/07/15 14:57:40 [notice] 31#31: exit
+2022/07/15 14:57:40 [notice] 33#33: exit
+2022/07/15 14:57:40 [notice] 32#32: exit
+2022/07/15 14:57:40 [notice] 36#36: exit
+2022/07/15 14:57:40 [notice] 37#37: exit
+2022/07/15 14:57:40 [notice] 34#34: exit
+2022/07/15 14:57:40 [notice] 38#38: gracefully shutting down
+2022/07/15 14:57:40 [notice] 38#38: exiting
+2022/07/15 14:57:40 [notice] 38#38: exit
+2022/07/15 14:57:40 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/07/15 14:57:40 [notice] 1#1: worker process 33 exited with code 0
+2022/07/15 14:57:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/15 14:57:40 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/07/15 14:57:40 [notice] 1#1: worker process 34 exited with code 0
+2022/07/15 14:57:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/15 14:57:40 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2022/07/15 14:57:40 [notice] 1#1: worker process 37 exited with code 0
+2022/07/15 14:57:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/15 14:57:40 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/07/15 14:57:40 [notice] 1#1: worker process 36 exited with code 0
+2022/07/15 14:57:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/15 14:57:40 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/07/15 14:57:40 [notice] 1#1: worker process 31 exited with code 0
+2022/07/15 14:57:40 [notice] 1#1: worker process 35 exited with code 0
+2022/07/15 14:57:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/15 14:57:40 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/07/15 14:57:40 [notice] 1#1: worker process 32 exited with code 0
+2022/07/15 14:57:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/15 14:57:40 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2022/07/15 14:57:40 [notice] 1#1: worker process 38 exited with code 0
+2022/07/15 14:57:40 [notice] 1#1: exit
+2022/07/15 14:57:46 [notice] 1#1: using the "epoll" event method
+2022/07/15 14:57:46 [notice] 1#1: nginx/1.20.0
+2022/07/15 14:57:46 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/15 14:57:46 [notice] 1#1: OS: Linux 5.15.0-41-generic
+2022/07/15 14:57:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/15 14:57:46 [notice] 1#1: start worker processes
+2022/07/15 14:57:46 [notice] 1#1: start worker process 31
+2022/07/15 14:57:46 [notice] 1#1: start worker process 32
+2022/07/15 14:57:46 [notice] 1#1: start worker process 33
+2022/07/15 14:57:46 [notice] 1#1: start worker process 34
+2022/07/15 14:57:46 [notice] 1#1: start worker process 35
+2022/07/15 14:57:46 [notice] 1#1: start worker process 36
+2022/07/15 14:57:46 [notice] 1#1: start worker process 37
+2022/07/15 14:57:46 [notice] 1#1: start worker process 38
+2022/07/15 15:00:54 [notice] 1#1: using the "epoll" event method
+2022/07/15 15:00:54 [notice] 1#1: nginx/1.20.0
+2022/07/15 15:00:54 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/15 15:00:54 [notice] 1#1: OS: Linux 5.15.0-41-generic
+2022/07/15 15:00:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/15 15:00:54 [notice] 1#1: start worker processes
+2022/07/15 15:00:54 [notice] 1#1: start worker process 31
+2022/07/15 15:00:54 [notice] 1#1: start worker process 32
+2022/07/15 15:00:54 [notice] 1#1: start worker process 33
+2022/07/15 15:00:54 [notice] 1#1: start worker process 34
+2022/07/15 15:00:54 [notice] 1#1: start worker process 35
+2022/07/15 15:00:54 [notice] 1#1: start worker process 36
+2022/07/15 15:00:54 [notice] 1#1: start worker process 37
+2022/07/15 15:00:54 [notice] 1#1: start worker process 38
+2022/07/15 15:01:48 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/15 15:01:48 [notice] 31#31: gracefully shutting down
+2022/07/15 15:01:48 [notice] 31#31: exiting
+2022/07/15 15:01:48 [notice] 31#31: exit
+2022/07/15 15:01:48 [notice] 32#32: gracefully shutting down
+2022/07/15 15:01:48 [notice] 34#34: gracefully shutting down
+2022/07/15 15:01:48 [notice] 33#33: gracefully shutting down
+2022/07/15 15:01:48 [notice] 32#32: exiting
+2022/07/15 15:01:48 [notice] 34#34: exiting
+2022/07/15 15:01:48 [notice] 33#33: exiting
+2022/07/15 15:01:48 [notice] 34#34: exit
+2022/07/15 15:01:48 [notice] 32#32: exit
+2022/07/15 15:01:48 [notice] 33#33: exit
+2022/07/15 15:01:48 [notice] 35#35: gracefully shutting down
+2022/07/15 15:01:48 [notice] 35#35: exiting
+2022/07/15 15:01:48 [notice] 35#35: exit
+2022/07/15 15:01:48 [notice] 36#36: gracefully shutting down
+2022/07/15 15:01:48 [notice] 36#36: exiting
+2022/07/15 15:01:48 [notice] 36#36: exit
+2022/07/15 15:01:48 [notice] 37#37: gracefully shutting down
+2022/07/15 15:01:48 [notice] 37#37: exiting
+2022/07/15 15:01:48 [notice] 38#38: gracefully shutting down
+2022/07/15 15:01:48 [notice] 38#38: exiting
+2022/07/15 15:01:48 [notice] 38#38: exit
+2022/07/15 15:01:48 [notice] 37#37: exit
+2022/07/15 15:01:48 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/07/15 15:01:48 [notice] 1#1: worker process 32 exited with code 0
+2022/07/15 15:01:48 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/15 15:01:48 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/07/15 15:01:48 [notice] 1#1: worker process 33 exited with code 0
+2022/07/15 15:01:48 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/15 15:01:48 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2022/07/15 15:01:48 [notice] 1#1: worker process 38 exited with code 0
+2022/07/15 15:01:48 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/15 15:01:48 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/07/15 15:01:48 [notice] 1#1: worker process 34 exited with code 0
+2022/07/15 15:01:48 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/15 15:01:48 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/07/15 15:01:48 [notice] 1#1: worker process 31 exited with code 0
+2022/07/15 15:01:48 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/15 15:01:48 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/07/15 15:01:48 [notice] 1#1: worker process 36 exited with code 0
+2022/07/15 15:01:48 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/15 15:01:48 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/07/15 15:01:48 [notice] 1#1: worker process 35 exited with code 0
+2022/07/15 15:01:48 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2022/07/15 15:01:48 [notice] 1#1: worker process 37 exited with code 0
+2022/07/15 15:01:48 [notice] 1#1: exit
+2022/07/15 15:02:23 [notice] 1#1: using the "epoll" event method
+2022/07/15 15:02:23 [notice] 1#1: nginx/1.20.0
+2022/07/15 15:02:23 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/15 15:02:23 [notice] 1#1: OS: Linux 5.15.0-41-generic
+2022/07/15 15:02:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/15 15:02:23 [notice] 1#1: start worker processes
+2022/07/15 15:02:23 [notice] 1#1: start worker process 31
+2022/07/15 15:02:23 [notice] 1#1: start worker process 32
+2022/07/15 15:02:23 [notice] 1#1: start worker process 33
+2022/07/15 15:02:23 [notice] 1#1: start worker process 34
+2022/07/15 15:02:23 [notice] 1#1: start worker process 35
+2022/07/15 15:02:23 [notice] 1#1: start worker process 36
+2022/07/15 15:02:23 [notice] 1#1: start worker process 37
+2022/07/15 15:02:23 [notice] 1#1: start worker process 38
+2022/07/15 15:03:31 [notice] 1#1: using the "epoll" event method
+2022/07/15 15:03:31 [notice] 1#1: nginx/1.20.0
+2022/07/15 15:03:31 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/15 15:03:31 [notice] 1#1: OS: Linux 5.15.0-41-generic
+2022/07/15 15:03:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/15 15:03:31 [notice] 1#1: start worker processes
+2022/07/15 15:03:31 [notice] 1#1: start worker process 31
+2022/07/15 15:03:31 [notice] 1#1: start worker process 32
+2022/07/15 15:03:31 [notice] 1#1: start worker process 33
+2022/07/15 15:03:31 [notice] 1#1: start worker process 34
+2022/07/15 15:03:31 [notice] 1#1: start worker process 35
+2022/07/15 15:03:31 [notice] 1#1: start worker process 36
+2022/07/15 15:03:31 [notice] 1#1: start worker process 37
+2022/07/15 15:03:31 [notice] 1#1: start worker process 38
+2022/07/15 15:31:54 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/15 15:31:54 [notice] 31#31: gracefully shutting down
+2022/07/15 15:31:54 [notice] 32#32: gracefully shutting down
+2022/07/15 15:31:54 [notice] 33#33: gracefully shutting down
+2022/07/15 15:31:54 [notice] 34#34: gracefully shutting down
+2022/07/15 15:31:54 [notice] 35#35: gracefully shutting down
+2022/07/15 15:31:54 [notice] 36#36: gracefully shutting down
+2022/07/15 15:31:54 [notice] 31#31: exiting
+2022/07/15 15:31:54 [notice] 32#32: exiting
+2022/07/15 15:31:54 [notice] 33#33: exiting
+2022/07/15 15:31:54 [notice] 34#34: exiting
+2022/07/15 15:31:54 [notice] 35#35: exiting
+2022/07/15 15:31:54 [notice] 36#36: exiting
+2022/07/15 15:31:54 [notice] 37#37: gracefully shutting down
+2022/07/15 15:31:54 [notice] 37#37: exiting
+2022/07/15 15:31:54 [notice] 32#32: exit
+2022/07/15 15:31:54 [notice] 31#31: exit
+2022/07/15 15:31:54 [notice] 35#35: exit
+2022/07/15 15:31:54 [notice] 34#34: exit
+2022/07/15 15:31:54 [notice] 33#33: exit
+2022/07/15 15:31:54 [notice] 36#36: exit
+2022/07/15 15:31:54 [notice] 37#37: exit
+2022/07/15 15:31:54 [notice] 38#38: gracefully shutting down
+2022/07/15 15:31:54 [notice] 38#38: exiting
+2022/07/15 15:31:54 [notice] 38#38: exit
+2022/07/15 15:31:54 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/07/15 15:31:54 [notice] 1#1: worker process 35 exited with code 0
+2022/07/15 15:31:54 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/15 15:31:54 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/07/15 15:31:54 [notice] 1#1: worker process 32 exited with code 0
+2022/07/15 15:31:54 [notice] 1#1: worker process 34 exited with code 0
+2022/07/15 15:31:54 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/15 15:31:54 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/07/15 15:31:54 [notice] 1#1: worker process 31 exited with code 0
+2022/07/15 15:31:54 [notice] 1#1: worker process 33 exited with code 0
+2022/07/15 15:31:54 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/15 15:31:54 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2022/07/15 15:31:54 [notice] 1#1: worker process 37 exited with code 0
+2022/07/15 15:31:54 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/15 15:31:54 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2022/07/15 15:31:54 [notice] 1#1: worker process 38 exited with code 0
+2022/07/15 15:31:54 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/15 15:31:54 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/07/15 15:31:54 [notice] 1#1: worker process 36 exited with code 0
+2022/07/15 15:31:54 [notice] 1#1: exit
+2022/07/18 08:12:56 [notice] 1#1: using the "epoll" event method
+2022/07/18 08:12:56 [notice] 1#1: nginx/1.20.0
+2022/07/18 08:12:56 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/18 08:12:56 [notice] 1#1: OS: Linux 5.15.0-41-generic
+2022/07/18 08:12:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/18 08:12:56 [notice] 1#1: start worker processes
+2022/07/18 08:12:56 [notice] 1#1: start worker process 31
+2022/07/18 08:12:56 [notice] 1#1: start worker process 32
+2022/07/18 08:12:56 [notice] 1#1: start worker process 33
+2022/07/18 08:12:56 [notice] 1#1: start worker process 34
+2022/07/18 08:12:56 [notice] 1#1: start worker process 35
+2022/07/18 08:12:56 [notice] 1#1: start worker process 36
+2022/07/18 08:12:56 [notice] 1#1: start worker process 37
+2022/07/18 08:12:56 [notice] 1#1: start worker process 38
+2022/07/18 08:34:08 [error] 31#31: *6 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/18 08:34:19 [error] 31#31: *6 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/18 08:34:33 [error] 31#31: *6 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/18 08:34:34 [error] 31#31: *6 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/18 08:34:43 [error] 31#31: *6 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/18 08:35:06 [error] 31#31: *6 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/18 08:35:09 [error] 31#31: *6 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/18 08:35:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/18 08:35:36 [notice] 31#31: gracefully shutting down
+2022/07/18 08:35:36 [notice] 32#32: gracefully shutting down
+2022/07/18 08:35:36 [notice] 33#33: gracefully shutting down
+2022/07/18 08:35:36 [notice] 34#34: gracefully shutting down
+2022/07/18 08:35:36 [notice] 36#36: gracefully shutting down
+2022/07/18 08:35:36 [notice] 37#37: gracefully shutting down
+2022/07/18 08:35:36 [notice] 32#32: exiting
+2022/07/18 08:35:36 [notice] 33#33: exiting
+2022/07/18 08:35:36 [notice] 34#34: exiting
+2022/07/18 08:35:36 [notice] 36#36: exiting
+2022/07/18 08:35:36 [notice] 37#37: exiting
+2022/07/18 08:35:36 [notice] 31#31: exiting
+2022/07/18 08:35:36 [notice] 35#35: gracefully shutting down
+2022/07/18 08:35:36 [notice] 35#35: exiting
+2022/07/18 08:35:36 [notice] 36#36: exit
+2022/07/18 08:35:36 [notice] 34#34: exit
+2022/07/18 08:35:36 [notice] 32#32: exit
+2022/07/18 08:35:36 [notice] 31#31: exit
+2022/07/18 08:35:36 [notice] 37#37: exit
+2022/07/18 08:35:36 [notice] 33#33: exit
+2022/07/18 08:35:36 [notice] 35#35: exit
+2022/07/18 08:35:36 [notice] 38#38: gracefully shutting down
+2022/07/18 08:35:36 [notice] 38#38: exiting
+2022/07/18 08:35:36 [notice] 38#38: exit
+2022/07/18 08:35:36 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/07/18 08:35:36 [notice] 1#1: worker process 34 exited with code 0
+2022/07/18 08:35:36 [notice] 1#1: worker process 38 exited with code 0
+2022/07/18 08:35:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/18 08:35:36 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/07/18 08:35:36 [notice] 1#1: worker process 32 exited with code 0
+2022/07/18 08:35:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/18 08:35:36 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/07/18 08:35:36 [notice] 1#1: worker process 31 exited with code 0
+2022/07/18 08:35:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/18 08:35:36 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/07/18 08:35:36 [notice] 1#1: worker process 33 exited with code 0
+2022/07/18 08:35:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/18 08:35:36 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/07/18 08:35:36 [notice] 1#1: worker process 36 exited with code 0
+2022/07/18 08:35:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/18 08:35:36 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/07/18 08:35:36 [notice] 1#1: worker process 35 exited with code 0
+2022/07/18 08:35:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/18 08:35:36 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2022/07/18 08:35:36 [notice] 1#1: worker process 37 exited with code 0
+2022/07/18 08:35:36 [notice] 1#1: exit
+2022/07/18 08:35:46 [notice] 1#1: using the "epoll" event method
+2022/07/18 08:35:46 [notice] 1#1: nginx/1.20.0
+2022/07/18 08:35:46 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/18 08:35:46 [notice] 1#1: OS: Linux 5.15.0-41-generic
+2022/07/18 08:35:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/18 08:35:46 [notice] 1#1: start worker processes
+2022/07/18 08:35:46 [notice] 1#1: start worker process 31
+2022/07/18 08:35:46 [notice] 1#1: start worker process 32
+2022/07/18 08:35:46 [notice] 1#1: start worker process 33
+2022/07/18 08:35:46 [notice] 1#1: start worker process 34
+2022/07/18 08:35:46 [notice] 1#1: start worker process 35
+2022/07/18 08:35:46 [notice] 1#1: start worker process 36
+2022/07/18 08:35:46 [notice] 1#1: start worker process 37
+2022/07/18 08:35:46 [notice] 1#1: start worker process 38
+2022/07/18 08:35:51 [error] 31#31: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 08:35:51 [error] 31#31: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 08:36:05 [error] 31#31: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 08:36:33 [error] 31#31: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 08:37:15 [error] 31#31: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 08:37:36 [error] 31#31: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 08:37:40 [error] 31#31: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 08:37:43 [error] 31#31: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 08:37:43 [error] 31#31: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 08:37:46 [error] 31#31: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 08:37:47 [error] 31#31: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 08:38:46 [error] 31#31: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 08:38:47 [error] 31#31: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 08:38:47 [error] 31#31: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 08:39:58 [error] 31#31: *16 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 08:39:59 [error] 31#31: *16 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 08:39:59 [error] 31#31: *16 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 08:40:00 [error] 31#31: *16 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 08:40:18 [error] 31#31: *16 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 08:40:25 [error] 31#31: *16 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 08:41:04 [notice] 1#1: using the "epoll" event method
+2022/07/18 08:41:04 [notice] 1#1: nginx/1.20.0
+2022/07/18 08:41:04 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/18 08:41:04 [notice] 1#1: OS: Linux 5.15.0-41-generic
+2022/07/18 08:41:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/18 08:41:04 [notice] 1#1: start worker processes
+2022/07/18 08:41:04 [notice] 1#1: start worker process 31
+2022/07/18 08:41:04 [notice] 1#1: start worker process 32
+2022/07/18 08:41:04 [notice] 1#1: start worker process 33
+2022/07/18 08:41:04 [notice] 1#1: start worker process 34
+2022/07/18 08:41:04 [notice] 1#1: start worker process 35
+2022/07/18 08:41:04 [notice] 1#1: start worker process 36
+2022/07/18 08:41:04 [notice] 1#1: start worker process 37
+2022/07/18 08:41:04 [notice] 1#1: start worker process 38
+2022/07/18 08:41:09 [error] 31#31: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 08:41:20 [error] 31#31: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 08:48:39 [error] 31#31: *10 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 08:49:11 [error] 31#31: *10 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 08:49:11 [error] 31#31: *10 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 08:49:24 [error] 31#31: *10 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /var/www/html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 5" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 09:10:45 [error] 31#31: *28 FastCGI sent in stderr: "PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/index.php on line 10" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 09:10:45 [error] 31#31: *28 FastCGI sent in stderr: "PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/index.php on line 10" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost", referrer: "http://localhost/"
+2022/07/18 09:27:23 [error] 31#31: *40 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $lista in /var/www/html/public/index.php on line 11PHP message: PHP Fatal error:  Uncaught Error: Only arrays and Traversables can be unpacked in /var/www/html/public/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 11" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 09:27:28 [error] 31#31: *40 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $lista in /var/www/html/public/index.php on line 11PHP message: PHP Fatal error:  Uncaught Error: Only arrays and Traversables can be unpacked in /var/www/html/public/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 11" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 09:27:29 [error] 31#31: *40 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $lista in /var/www/html/public/index.php on line 11PHP message: PHP Fatal error:  Uncaught Error: Only arrays and Traversables can be unpacked in /var/www/html/public/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 11" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 09:27:38 [error] 31#31: *40 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $lista in /var/www/html/public/index.php on line 11PHP message: PHP Fatal error:  Uncaught Error: Only arrays and Traversables can be unpacked in /var/www/html/public/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 11" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 09:27:39 [error] 31#31: *40 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $lista in /var/www/html/public/index.php on line 11PHP message: PHP Fatal error:  Uncaught Error: Only arrays and Traversables can be unpacked in /var/www/html/public/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 11" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 09:27:59 [error] 31#31: *40 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $lista in /var/www/html/public/index.php on line 11PHP message: PHP Fatal error:  Uncaught Error: Only arrays and Traversables can be unpacked in /var/www/html/public/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 11" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 09:27:59 [error] 31#31: *40 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $lista in /var/www/html/public/index.php on line 11PHP message: PHP Fatal error:  Uncaught Error: Only arrays and Traversables can be unpacked in /var/www/html/public/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 11" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 09:28:00 [error] 31#31: *40 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $lista in /var/www/html/public/index.php on line 11PHP message: PHP Fatal error:  Uncaught Error: Only arrays and Traversables can be unpacked in /var/www/html/public/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 11" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 09:28:31 [error] 31#31: *40 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $lista in /var/www/html/public/index.php on line 11PHP message: PHP Fatal error:  Uncaught Error: Only arrays and Traversables can be unpacked in /var/www/html/public/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 11" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 09:33:50 [error] 31#31: *56 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key 0 in /var/www/html/public/index.php on line 16" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 09:33:50 [error] 31#31: *56 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key 0 in /var/www/html/public/index.php on line 16" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost", referrer: "http://localhost/"
+2022/07/18 09:52:00 [error] 31#31: *61 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "forca" in /var/www/html/public/index.php on line 19" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 09:52:00 [error] 31#31: *61 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "forca" in /var/www/html/public/index.php on line 19" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost", referrer: "http://localhost/"
+2022/07/18 09:52:42 [error] 31#31: *61 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "forca" in /var/www/html/public/index.php on line 19" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 09:52:42 [error] 31#31: *61 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "forca" in /var/www/html/public/index.php on line 19" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost", referrer: "http://localhost/"
+2022/07/18 09:53:19 [error] 31#31: *61 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "atributosforca" in /var/www/html/public/index.php on line 19" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 09:53:19 [error] 31#31: *61 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "atributosforca" in /var/www/html/public/index.php on line 19" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost", referrer: "http://localhost/"
+2022/07/18 09:53:20 [error] 31#31: *61 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "atributosforca" in /var/www/html/public/index.php on line 19" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 09:53:20 [error] 31#31: *61 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "atributosforca" in /var/www/html/public/index.php on line 19" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost", referrer: "http://localhost/"
+2022/07/18 09:53:20 [error] 31#31: *61 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "atributosforca" in /var/www/html/public/index.php on line 19" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 09:53:20 [error] 31#31: *61 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "atributosforca" in /var/www/html/public/index.php on line 19" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost", referrer: "http://localhost/"
+2022/07/18 09:53:42 [error] 31#31: *61 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "forca" in /var/www/html/public/index.php on line 19" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 09:53:42 [error] 31#31: *61 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "forca" in /var/www/html/public/index.php on line 19" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost", referrer: "http://localhost/"
+2022/07/18 09:54:43 [error] 31#31: *61 FastCGI sent in stderr: "PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/index.php on line 19PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/index.php on line 19" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 09:54:43 [error] 31#31: *61 FastCGI sent in stderr: "PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/index.php on line 19PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/index.php on line 19" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost", referrer: "http://localhost/"
+2022/07/18 09:55:01 [error] 31#31: *61 FastCGI sent in stderr: "PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/index.php on line 19PHP message: PHP Warning:  Undefined array key "forca" in /var/www/html/public/index.php on line 19" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 09:55:01 [error] 31#31: *61 FastCGI sent in stderr: "PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/index.php on line 19PHP message: PHP Warning:  Undefined array key "forca" in /var/www/html/public/index.php on line 19" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost", referrer: "http://localhost/"
+2022/07/18 10:02:44 [error] 31#31: *88 directory index of "/var/www/html/public/" is forbidden, client: 172.19.0.1, server: representante.karina.test, request: "GET / HTTP/1.1", host: "localhost"
+2022/07/18 10:04:16 [error] 31#31: *88 directory index of "/var/www/html/public/array/" is forbidden, client: 172.19.0.1, server: representante.karina.test, request: "GET /array/ HTTP/1.1", host: "localhost"
+2022/07/18 11:07:23 [warn] 31#31: *115 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET /loop/ HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 12:09:29 [error] 31#31: *154 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $z in /var/www/html/public/loop/exercicio2/index.php on line 8PHP message: PHP Warning:  Undefined variable $z in /var/www/html/public/loop/exercicio2/index.php on line 9" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET /loop/exercicio2/index.php HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 12:09:30 [error] 31#31: *154 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $z in /var/www/html/public/loop/exercicio2/index.php on line 8PHP message: PHP Warning:  Undefined variable $z in /var/www/html/public/loop/exercicio2/index.php on line 9" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET /loop/exercicio2/index.php HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 12:09:30 [error] 31#31: *154 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $z in /var/www/html/public/loop/exercicio2/index.php on line 8PHP message: PHP Warning:  Undefined variable $z in /var/www/html/public/loop/exercicio2/index.php on line 9" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET /loop/exercicio2/index.php HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/07/18 13:01:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/18 13:01:23 [notice] 31#31: gracefully shutting down
+2022/07/18 13:01:23 [notice] 31#31: exiting
+2022/07/18 13:01:23 [notice] 34#34: gracefully shutting down
+2022/07/18 13:01:23 [notice] 32#32: gracefully shutting down
+2022/07/18 13:01:23 [notice] 34#34: exiting
+2022/07/18 13:01:23 [notice] 32#32: exiting
+2022/07/18 13:01:23 [notice] 31#31: exit
+2022/07/18 13:01:23 [notice] 34#34: exit
+2022/07/18 13:01:23 [notice] 32#32: exit
+2022/07/18 13:01:23 [notice] 38#38: gracefully shutting down
+2022/07/18 13:01:23 [notice] 38#38: exiting
+2022/07/18 13:01:23 [notice] 38#38: exit
+2022/07/18 13:01:23 [notice] 35#35: gracefully shutting down
+2022/07/18 13:01:23 [notice] 35#35: exiting
+2022/07/18 13:01:23 [notice] 35#35: exit
+2022/07/18 13:01:23 [notice] 36#36: gracefully shutting down
+2022/07/18 13:01:23 [notice] 36#36: exiting
+2022/07/18 13:01:23 [notice] 36#36: exit
+2022/07/18 13:01:23 [notice] 33#33: gracefully shutting down
+2022/07/18 13:01:23 [notice] 33#33: exiting
+2022/07/18 13:01:23 [notice] 33#33: exit
+2022/07/18 13:01:23 [notice] 37#37: gracefully shutting down
+2022/07/18 13:01:23 [notice] 37#37: exiting
+2022/07/18 13:01:23 [notice] 37#37: exit
+2022/07/18 13:01:23 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2022/07/18 13:01:23 [notice] 1#1: worker process 37 exited with code 0
+2022/07/18 13:01:23 [notice] 1#1: worker process 38 exited with code 0
+2022/07/18 13:01:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/18 13:01:23 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2022/07/18 13:01:23 [notice] 1#1: worker process 33 exited with code 0
+2022/07/18 13:01:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/18 13:01:23 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/07/18 13:01:23 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/07/18 13:01:23 [notice] 1#1: worker process 34 exited with code 0
+2022/07/18 13:01:23 [notice] 1#1: worker process 35 exited with code 0
+2022/07/18 13:01:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/18 13:01:23 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/07/18 13:01:23 [notice] 1#1: worker process 31 exited with code 0
+2022/07/18 13:01:23 [notice] 1#1: worker process 36 exited with code 0
+2022/07/18 13:01:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/18 13:01:23 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/07/18 13:01:23 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/07/18 13:01:23 [notice] 1#1: worker process 32 exited with code 0
+2022/07/18 13:01:23 [notice] 1#1: exit
+2022/07/19 08:02:10 [notice] 1#1: using the "epoll" event method
+2022/07/19 08:02:10 [notice] 1#1: nginx/1.20.0
+2022/07/19 08:02:10 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/19 08:02:10 [notice] 1#1: OS: Linux 5.15.0-41-generic
+2022/07/19 08:02:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/19 08:02:10 [notice] 1#1: start worker processes
+2022/07/19 08:02:10 [notice] 1#1: start worker process 31
+2022/07/19 08:02:10 [notice] 1#1: start worker process 32
+2022/07/19 08:02:10 [notice] 1#1: start worker process 33
+2022/07/19 08:02:10 [notice] 1#1: start worker process 34
+2022/07/19 08:02:10 [notice] 1#1: start worker process 35
+2022/07/19 08:02:10 [notice] 1#1: start worker process 36
+2022/07/19 08:02:10 [notice] 1#1: start worker process 37
+2022/07/19 08:02:10 [notice] 1#1: start worker process 38
+2022/07/19 08:33:57 [error] 31#31: *14 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected token ")" in /var/www/html/public/funcoes/index.php on line 27" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET /funcoes/index.php HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "localhost"
+2022/07/19 08:42:49 [error] 31#31: *17 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $somar in /var/www/html/public/funcoes/index.php on line 45PHP message: PHP Fatal error:  Uncaught Error: Value of type null is not callable in /var/www/html/public/funcoes/index.php:45
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/funcoes/index.php on line 45" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET /funcoes/index.php HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "localhost"
+2022/07/19 08:42:54 [error] 31#31: *17 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $somar in /var/www/html/public/funcoes/index.php on line 45PHP message: PHP Fatal error:  Uncaught Error: Value of type null is not callable in /var/www/html/public/funcoes/index.php:45
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/funcoes/index.php on line 45" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET /funcoes/index.php HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "localhost"
+2022/07/19 08:42:54 [error] 31#31: *17 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $somar in /var/www/html/public/funcoes/index.php on line 45PHP message: PHP Fatal error:  Uncaught Error: Value of type null is not callable in /var/www/html/public/funcoes/index.php:45
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/funcoes/index.php on line 45" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET /funcoes/index.php HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "localhost"
+2022/07/19 08:42:57 [error] 31#31: *17 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $somar in /var/www/html/public/funcoes/index.php on line 45PHP message: PHP Fatal error:  Uncaught Error: Value of type null is not callable in /var/www/html/public/funcoes/index.php:45
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/funcoes/index.php on line 45" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET /funcoes/index.php HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "localhost"
+2022/07/19 08:42:58 [error] 31#31: *17 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $somar in /var/www/html/public/funcoes/index.php on line 45PHP message: PHP Fatal error:  Uncaught Error: Value of type null is not callable in /var/www/html/public/funcoes/index.php:45
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/funcoes/index.php on line 45" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET /funcoes/index.php HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "localhost"
+2022/07/19 08:43:22 [error] 31#31: *17 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $somar in /var/www/html/public/funcoes/index.php on line 45PHP message: PHP Fatal error:  Uncaught Error: Value of type null is not callable in /var/www/html/public/funcoes/index.php:45
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/funcoes/index.php on line 45" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET /funcoes/index.php HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "localhost"
+2022/07/19 08:43:31 [error] 31#31: *17 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $somar in /var/www/html/public/funcoes/index.php on line 45PHP message: PHP Fatal error:  Uncaught Error: Value of type null is not callable in /var/www/html/public/funcoes/index.php:45
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/funcoes/index.php on line 45" while reading response header from upstream, client: 172.19.0.1, server: representante.karina.test, request: "GET /funcoes/index.php HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "localhost"
+2022/07/19 12:57:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/19 12:57:51 [notice] 31#31: gracefully shutting down
+2022/07/19 12:57:51 [notice] 36#36: gracefully shutting down
+2022/07/19 12:57:51 [notice] 32#32: gracefully shutting down
+2022/07/19 12:57:51 [notice] 37#37: gracefully shutting down
+2022/07/19 12:57:51 [notice] 38#38: gracefully shutting down
+2022/07/19 12:57:51 [notice] 34#34: gracefully shutting down
+2022/07/19 12:57:51 [notice] 31#31: exiting
+2022/07/19 12:57:51 [notice] 36#36: exiting
+2022/07/19 12:57:51 [notice] 33#33: gracefully shutting down
+2022/07/19 12:57:51 [notice] 32#32: exiting
+2022/07/19 12:57:51 [notice] 37#37: exiting
+2022/07/19 12:57:51 [notice] 38#38: exiting
+2022/07/19 12:57:51 [notice] 34#34: exiting
+2022/07/19 12:57:51 [notice] 33#33: exiting
+2022/07/19 12:57:51 [notice] 31#31: exit
+2022/07/19 12:57:51 [notice] 36#36: exit
+2022/07/19 12:57:51 [notice] 32#32: exit
+2022/07/19 12:57:51 [notice] 38#38: exit
+2022/07/19 12:57:51 [notice] 37#37: exit
+2022/07/19 12:57:51 [notice] 33#33: exit
+2022/07/19 12:57:51 [notice] 34#34: exit
+2022/07/19 12:57:51 [notice] 35#35: gracefully shutting down
+2022/07/19 12:57:51 [notice] 35#35: exiting
+2022/07/19 12:57:51 [notice] 35#35: exit
+2022/07/19 12:57:51 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2022/07/19 12:57:51 [notice] 1#1: worker process 37 exited with code 0
+2022/07/19 12:57:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/19 12:57:51 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/07/19 12:57:51 [notice] 1#1: worker process 31 exited with code 0
+2022/07/19 12:57:51 [notice] 1#1: worker process 33 exited with code 0
+2022/07/19 12:57:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/19 12:57:51 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/07/19 12:57:51 [notice] 1#1: worker process 36 exited with code 0
+2022/07/19 12:57:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/19 12:57:51 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/07/19 12:57:51 [notice] 1#1: worker process 34 exited with code 0
+2022/07/19 12:57:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/19 12:57:51 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/07/19 12:57:51 [notice] 1#1: worker process 32 exited with code 0
+2022/07/19 12:57:51 [notice] 1#1: worker process 35 exited with code 0
+2022/07/19 12:57:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/19 12:57:51 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2022/07/19 12:57:51 [notice] 1#1: worker process 38 exited with code 0
+2022/07/19 12:57:51 [notice] 1#1: exit
+2022/07/20 08:16:34 [notice] 1#1: using the "epoll" event method
+2022/07/20 08:16:34 [notice] 1#1: nginx/1.20.0
+2022/07/20 08:16:34 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/20 08:16:34 [notice] 1#1: OS: Linux 5.15.0-41-generic
+2022/07/20 08:16:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/20 08:16:34 [notice] 1#1: start worker processes
+2022/07/20 08:16:34 [notice] 1#1: start worker process 31
+2022/07/20 08:16:34 [notice] 1#1: start worker process 32
+2022/07/20 08:16:34 [notice] 1#1: start worker process 33
+2022/07/20 08:16:34 [notice] 1#1: start worker process 34
+2022/07/20 08:16:34 [notice] 1#1: start worker process 35
+2022/07/20 08:16:34 [notice] 1#1: start worker process 36
+2022/07/20 08:16:34 [notice] 1#1: start worker process 37
+2022/07/20 08:16:34 [notice] 1#1: start worker process 38
+2022/07/20 08:53:46 [error] 31#31: *16 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: strtotime(): Argument #2 ($baseTimestamp) must be of type ?int, string given in /var/www/html/public/funcoes/index.php:198
+Stack trace:
+#0 /var/www/html/public/funcoes/index.php(198): strtotime()
+#1 {main}
+  thrown in /var/www/html/public/funcoes/index.php on line 198" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /funcoes/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/20 08:54:35 [error] 31#31: *16 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: strtotime(): Argument #2 ($baseTimestamp) must be of type ?int, string given in /var/www/html/public/funcoes/index.php:198
+Stack trace:
+#0 /var/www/html/public/funcoes/index.php(198): strtotime()
+#1 {main}
+  thrown in /var/www/html/public/funcoes/index.php on line 198" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /funcoes/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/20 08:54:36 [error] 31#31: *16 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: strtotime(): Argument #2 ($baseTimestamp) must be of type ?int, string given in /var/www/html/public/funcoes/index.php:198
+Stack trace:
+#0 /var/www/html/public/funcoes/index.php(198): strtotime()
+#1 {main}
+  thrown in /var/www/html/public/funcoes/index.php on line 198" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /funcoes/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/20 12:59:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/20 12:59:44 [notice] 31#31: gracefully shutting down
+2022/07/20 12:59:44 [notice] 32#32: gracefully shutting down
+2022/07/20 12:59:44 [notice] 33#33: gracefully shutting down
+2022/07/20 12:59:44 [notice] 34#34: gracefully shutting down
+2022/07/20 12:59:44 [notice] 35#35: gracefully shutting down
+2022/07/20 12:59:44 [notice] 31#31: exiting
+2022/07/20 12:59:44 [notice] 36#36: gracefully shutting down
+2022/07/20 12:59:44 [notice] 32#32: exiting
+2022/07/20 12:59:44 [notice] 37#37: gracefully shutting down
+2022/07/20 12:59:44 [notice] 33#33: exiting
+2022/07/20 12:59:44 [notice] 34#34: exiting
+2022/07/20 12:59:44 [notice] 35#35: exiting
+2022/07/20 12:59:44 [notice] 36#36: exiting
+2022/07/20 12:59:44 [notice] 37#37: exiting
+2022/07/20 12:59:44 [notice] 31#31: exit
+2022/07/20 12:59:44 [notice] 32#32: exit
+2022/07/20 12:59:44 [notice] 34#34: exit
+2022/07/20 12:59:44 [notice] 33#33: exit
+2022/07/20 12:59:44 [notice] 36#36: exit
+2022/07/20 12:59:44 [notice] 37#37: exit
+2022/07/20 12:59:44 [notice] 35#35: exit
+2022/07/20 12:59:44 [notice] 38#38: gracefully shutting down
+2022/07/20 12:59:44 [notice] 38#38: exiting
+2022/07/20 12:59:44 [notice] 38#38: exit
+2022/07/20 12:59:44 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/07/20 12:59:44 [notice] 1#1: worker process 32 exited with code 0
+2022/07/20 12:59:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/20 12:59:44 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2022/07/20 12:59:44 [notice] 1#1: worker process 35 exited with code 0
+2022/07/20 12:59:44 [notice] 1#1: worker process 36 exited with code 0
+2022/07/20 12:59:44 [notice] 1#1: worker process 37 exited with code 0
+2022/07/20 12:59:44 [notice] 1#1: worker process 31 exited with code 0
+2022/07/20 12:59:44 [notice] 1#1: worker process 33 exited with code 0
+2022/07/20 12:59:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/20 12:59:44 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/07/20 12:59:44 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2022/07/20 12:59:44 [notice] 1#1: worker process 38 exited with code 0
+2022/07/20 12:59:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/20 12:59:44 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/07/20 12:59:44 [notice] 1#1: worker process 34 exited with code 0
+2022/07/20 12:59:44 [notice] 1#1: exit
+2022/07/21 09:14:36 [notice] 1#1: using the "epoll" event method
+2022/07/21 09:14:36 [notice] 1#1: nginx/1.20.0
+2022/07/21 09:14:36 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/21 09:14:36 [notice] 1#1: OS: Linux 5.15.0-41-generic
+2022/07/21 09:14:36 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/21 09:14:36 [notice] 1#1: start worker processes
+2022/07/21 09:14:36 [notice] 1#1: start worker process 30
+2022/07/21 09:14:36 [notice] 1#1: start worker process 31
+2022/07/21 09:14:36 [notice] 1#1: start worker process 32
+2022/07/21 09:14:36 [notice] 1#1: start worker process 33
+2022/07/21 09:14:36 [notice] 1#1: start worker process 34
+2022/07/21 09:14:36 [notice] 1#1: start worker process 35
+2022/07/21 09:14:36 [notice] 1#1: start worker process 36
+2022/07/21 09:14:36 [notice] 1#1: start worker process 37
+2022/07/21 11:05:32 [error] 30#30: *27 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "nome" in /var/www/html/public/HTTP_Requests/header.php on line 4" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /HTTP_Requests/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost", referrer: "http://localhost/HTTP_Requests/index.php"
+2022/07/21 11:05:43 [error] 30#30: *27 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "nome" in /var/www/html/public/HTTP_Requests/header.php on line 4" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /HTTP_Requests/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost", referrer: "http://localhost/HTTP_Requests/index.php"
+2022/07/21 11:05:44 [error] 30#30: *27 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "nome" in /var/www/html/public/HTTP_Requests/header.php on line 4" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /HTTP_Requests/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost", referrer: "http://localhost/HTTP_Requests/index.php"
+2022/07/21 11:05:44 [error] 30#30: *27 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "nome" in /var/www/html/public/HTTP_Requests/header.php on line 4" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /HTTP_Requests/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost", referrer: "http://localhost/HTTP_Requests/index.php"
+2022/07/21 11:06:23 [error] 30#30: *27 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "nome" in /var/www/html/public/HTTP_Requests/header.php on line 4" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /HTTP_Requests/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost", referrer: "http://localhost/HTTP_Requests/index.php"
+2022/07/21 12:54:59 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/21 12:54:59 [notice] 30#30: gracefully shutting down
+2022/07/21 12:54:59 [notice] 33#33: gracefully shutting down
+2022/07/21 12:54:59 [notice] 31#31: gracefully shutting down
+2022/07/21 12:54:59 [notice] 32#32: gracefully shutting down
+2022/07/21 12:54:59 [notice] 35#35: gracefully shutting down
+2022/07/21 12:54:59 [notice] 34#34: gracefully shutting down
+2022/07/21 12:54:59 [notice] 30#30: exiting
+2022/07/21 12:54:59 [notice] 36#36: gracefully shutting down
+2022/07/21 12:54:59 [notice] 33#33: exiting
+2022/07/21 12:54:59 [notice] 31#31: exiting
+2022/07/21 12:54:59 [notice] 32#32: exiting
+2022/07/21 12:54:59 [notice] 35#35: exiting
+2022/07/21 12:54:59 [notice] 34#34: exiting
+2022/07/21 12:54:59 [notice] 36#36: exiting
+2022/07/21 12:54:59 [notice] 33#33: exit
+2022/07/21 12:54:59 [notice] 30#30: exit
+2022/07/21 12:54:59 [notice] 35#35: exit
+2022/07/21 12:54:59 [notice] 31#31: exit
+2022/07/21 12:54:59 [notice] 32#32: exit
+2022/07/21 12:54:59 [notice] 34#34: exit
+2022/07/21 12:54:59 [notice] 36#36: exit
+2022/07/21 12:54:59 [notice] 37#37: gracefully shutting down
+2022/07/21 12:54:59 [notice] 37#37: exiting
+2022/07/21 12:54:59 [notice] 37#37: exit
+2022/07/21 12:54:59 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/07/21 12:54:59 [notice] 1#1: worker process 31 exited with code 0
+2022/07/21 12:54:59 [notice] 1#1: worker process 34 exited with code 0
+2022/07/21 12:54:59 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/21 12:54:59 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/07/21 12:54:59 [notice] 1#1: worker process 32 exited with code 0
+2022/07/21 12:54:59 [notice] 1#1: worker process 37 exited with code 0
+2022/07/21 12:54:59 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/21 12:54:59 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/07/21 12:54:59 [notice] 1#1: worker process 30 exited with code 0
+2022/07/21 12:54:59 [notice] 1#1: worker process 35 exited with code 0
+2022/07/21 12:54:59 [notice] 1#1: worker process 36 exited with code 0
+2022/07/21 12:54:59 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/21 12:54:59 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/07/21 12:54:59 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/07/21 12:54:59 [notice] 1#1: worker process 33 exited with code 0
+2022/07/21 12:54:59 [notice] 1#1: exit
+2022/07/22 08:09:20 [notice] 1#1: using the "epoll" event method
+2022/07/22 08:09:20 [notice] 1#1: nginx/1.20.0
+2022/07/22 08:09:20 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/22 08:09:20 [notice] 1#1: OS: Linux 5.15.0-41-generic
+2022/07/22 08:09:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/22 08:09:20 [notice] 1#1: start worker processes
+2022/07/22 08:09:20 [notice] 1#1: start worker process 31
+2022/07/22 08:09:20 [notice] 1#1: start worker process 32
+2022/07/22 08:09:20 [notice] 1#1: start worker process 33
+2022/07/22 08:09:20 [notice] 1#1: start worker process 34
+2022/07/22 08:09:20 [notice] 1#1: start worker process 35
+2022/07/22 08:09:20 [notice] 1#1: start worker process 36
+2022/07/22 08:09:20 [notice] 1#1: start worker process 37
+2022/07/22 08:09:20 [notice] 1#1: start worker process 38
+2022/07/22 08:24:19 [error] 31#31: *3 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $texto in /var/www/html/public/Lendo_arquivos/index.php on line 8PHP message: PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($var) must be of type Countable|array, null given in /var/www/html/public/Lendo_arquivos/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Lendo_arquivos/index.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Lendo_arquivos/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/22 08:25:05 [error] 31#31: *3 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $texto in /var/www/html/public/Lendo_arquivos/index.php on line 8PHP message: PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($var) must be of type Countable|array, null given in /var/www/html/public/Lendo_arquivos/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Lendo_arquivos/index.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Lendo_arquivos/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/22 08:49:53 [warn] 31#31: *15 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.18.0.1, server: representante.karina.test, request: "POST /Upload_arquivos/recebedor.php HTTP/1.1", host: "localhost", referrer: "http://localhost/Upload_arquivos/index.php"
+2022/07/22 08:50:46 [warn] 31#31: *15 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.18.0.1, server: representante.karina.test, request: "POST /Upload_arquivos/recebedor.php HTTP/1.1", host: "localhost", referrer: "http://localhost/Upload_arquivos/index.php"
+2022/07/22 08:59:52 [warn] 31#31: *18 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.18.0.1, server: representante.karina.test, request: "POST /Upload_arquivos/recebedor.php HTTP/1.1", host: "localhost", referrer: "http://localhost/Upload_arquivos/index.php"
+2022/07/22 08:59:52 [error] 31#31: *18 FastCGI sent in stderr: "PHP message: PHP Warning:  move_uploaded_file(arquivos/Cronograma de estudos(Henrique).odt): Failed to open stream: No such file or directory in /var/www/html/public/Upload_arquivos/recebedor.php on line 8PHP message: PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpBfKnol&quot; to &quot;arquivos/Cronograma de estudos(Henrique).odt&quot; in /var/www/html/public/Upload_arquivos/recebedor.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "POST /Upload_arquivos/recebedor.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost", referrer: "http://localhost/Upload_arquivos/index.php"
+2022/07/22 09:00:55 [warn] 31#31: *18 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 172.18.0.1, server: representante.karina.test, request: "POST /Upload_arquivos/recebedor.php HTTP/1.1", host: "localhost", referrer: "http://localhost/Upload_arquivos/index.php"
+2022/07/22 09:06:05 [warn] 31#31: *23 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 172.18.0.1, server: representante.karina.test, request: "POST /Upload_arquivos/recebedor.php HTTP/1.1", host: "localhost", referrer: "http://localhost/Upload_arquivos/index.php"
+2022/07/22 09:06:42 [warn] 31#31: *23 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 172.18.0.1, server: representante.karina.test, request: "POST /Upload_arquivos/recebedor.php HTTP/1.1", host: "localhost", referrer: "http://localhost/Upload_arquivos/index.php"
+2022/07/22 09:08:24 [error] 31#31: *26 client intended to send too large body: 12252039 bytes, client: 172.18.0.1, server: representante.karina.test, request: "POST /Upload_arquivos/recebedor.php HTTP/1.1", host: "localhost", referrer: "http://localhost/Upload_arquivos/index.php"
+2022/07/22 09:09:06 [warn] 31#31: *28 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 172.18.0.1, server: representante.karina.test, request: "POST /Upload_arquivos/recebedor.php HTTP/1.1", host: "localhost", referrer: "http://localhost/Upload_arquivos/index.php"
+2022/07/22 09:10:28 [warn] 31#31: *30 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 172.18.0.1, server: representante.karina.test, request: "POST /Upload_arquivos/recebedor.php HTTP/1.1", host: "localhost", referrer: "http://localhost/Upload_arquivos/index.php"
+2022/07/22 10:05:37 [error] 31#31: *41 FastCGI sent in stderr: "PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/Manipulacao_arrays/index.php on line 6PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/Manipulacao_arrays/index.php on line 6PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/Manipulacao_arrays/index.php on line 6PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/Manipulacao_arrays/index.php on line 6PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/Manipulacao_arrays/index.php on line 6PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/Manipulacao_arrays/index.php on line 6PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/Manipulacao_arrays/index.php on line 6PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/Manipulacao_arrays/index.php on line 6PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/Manipulacao_arrays/index.php on line 6PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/Manipulacao_arrays/index.php on line 6PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/Manipulacao_arrays/index.php on line 6PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/Manipulacao_arrays/index.php on line 6PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/Manipulacao_arrays/index.php on line 6PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/Manipulacao_arrays/index.php on line 6PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/Manipulacao_arrays/index.php on line 6PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/Manipulacao_arrays/index.php on line 6PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/Manipulacao_arrays/index.php on line 6PHP message
+2022/07/22 10:55:45 [error] 31#31: *54 FastCGI sent in stderr: "PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/Manipulacao_arrays/exercicio/index.php on line 34PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/Manipulacao_arrays/exercicio/index.php on line 34PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/Manipulacao_arrays/exercicio/index.php on line 34PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/Manipulacao_arrays/exercicio/index.php on line 34PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/Manipulacao_arrays/exercicio/index.php on line 34" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_arrays/exercicio/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/22 11:17:18 [error] 31#31: *66 FastCGI sent in stderr: "PHP message: PHP Warning:  Array to string conversion in /var/www/html/public/Manipulacao_arrays/index.php on line 43" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_arrays/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/22 15:32:45 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/22 15:32:45 [notice] 31#31: gracefully shutting down
+2022/07/22 15:32:45 [notice] 32#32: gracefully shutting down
+2022/07/22 15:32:45 [notice] 34#34: gracefully shutting down
+2022/07/22 15:32:45 [notice] 33#33: gracefully shutting down
+2022/07/22 15:32:45 [notice] 35#35: gracefully shutting down
+2022/07/22 15:32:45 [notice] 36#36: gracefully shutting down
+2022/07/22 15:32:45 [notice] 31#31: exiting
+2022/07/22 15:32:45 [notice] 37#37: gracefully shutting down
+2022/07/22 15:32:45 [notice] 38#38: gracefully shutting down
+2022/07/22 15:32:45 [notice] 32#32: exiting
+2022/07/22 15:32:45 [notice] 34#34: exiting
+2022/07/22 15:32:45 [notice] 33#33: exiting
+2022/07/22 15:32:45 [notice] 35#35: exiting
+2022/07/22 15:32:45 [notice] 36#36: exiting
+2022/07/22 15:32:45 [notice] 37#37: exiting
+2022/07/22 15:32:45 [notice] 38#38: exiting
+2022/07/22 15:32:45 [notice] 31#31: exit
+2022/07/22 15:32:45 [notice] 34#34: exit
+2022/07/22 15:32:45 [notice] 35#35: exit
+2022/07/22 15:32:45 [notice] 37#37: exit
+2022/07/22 15:32:45 [notice] 33#33: exit
+2022/07/22 15:32:45 [notice] 36#36: exit
+2022/07/22 15:32:45 [notice] 32#32: exit
+2022/07/22 15:32:45 [notice] 38#38: exit
+2022/07/22 15:32:45 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/07/22 15:32:45 [notice] 1#1: worker process 34 exited with code 0
+2022/07/22 15:32:45 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/22 15:32:45 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2022/07/22 15:32:45 [notice] 1#1: worker process 38 exited with code 0
+2022/07/22 15:32:45 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/22 15:32:45 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/07/22 15:32:45 [notice] 1#1: worker process 36 exited with code 0
+2022/07/22 15:32:45 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/22 15:32:45 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/07/22 15:32:45 [notice] 1#1: worker process 32 exited with code 0
+2022/07/22 15:32:45 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/22 15:32:45 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/07/22 15:32:45 [notice] 1#1: worker process 35 exited with code 0
+2022/07/22 15:32:45 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/22 15:32:45 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2022/07/22 15:32:45 [notice] 1#1: worker process 31 exited with code 0
+2022/07/22 15:32:45 [notice] 1#1: worker process 37 exited with code 0
+2022/07/22 15:32:45 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/22 15:32:45 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/07/22 15:32:45 [notice] 1#1: worker process 33 exited with code 0
+2022/07/22 15:32:45 [notice] 1#1: exit
+2022/07/25 08:18:42 [notice] 1#1: using the "epoll" event method
+2022/07/25 08:18:42 [notice] 1#1: nginx/1.20.0
+2022/07/25 08:18:42 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/25 08:18:42 [notice] 1#1: OS: Linux 5.15.0-41-generic
+2022/07/25 08:18:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/25 08:18:42 [notice] 1#1: start worker processes
+2022/07/25 08:18:42 [notice] 1#1: start worker process 31
+2022/07/25 08:18:42 [notice] 1#1: start worker process 32
+2022/07/25 08:18:42 [notice] 1#1: start worker process 33
+2022/07/25 08:18:42 [notice] 1#1: start worker process 34
+2022/07/25 08:18:42 [notice] 1#1: start worker process 35
+2022/07/25 08:18:42 [notice] 1#1: start worker process 36
+2022/07/25 08:18:42 [notice] 1#1: start worker process 37
+2022/07/25 08:18:42 [notice] 1#1: start worker process 38
+2022/07/25 10:19:30 [error] 31#31: *32 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Typed property Post::$author must not be accessed before initialization in /var/www/html/public/php_OO/index.php:32
+Stack trace:
+#0 /var/www/html/public/php_OO/index.php(42): Post->getAuthor()
+#1 {main}
+  thrown in /var/www/html/public/php_OO/index.php on line 32" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/25 11:50:10 [error] 31#31: *54 directory index of "/var/www/html/public/" is forbidden, client: 10.24.24.170, server: representante.karina.test, request: "GET / HTTP/1.1", host: "10.24.24.188"
+2022/07/25 12:56:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/25 12:56:49 [notice] 31#31: gracefully shutting down
+2022/07/25 12:56:49 [notice] 32#32: gracefully shutting down
+2022/07/25 12:56:49 [notice] 33#33: gracefully shutting down
+2022/07/25 12:56:49 [notice] 36#36: gracefully shutting down
+2022/07/25 12:56:49 [notice] 34#34: gracefully shutting down
+2022/07/25 12:56:49 [notice] 35#35: gracefully shutting down
+2022/07/25 12:56:49 [notice] 31#31: exiting
+2022/07/25 12:56:49 [notice] 32#32: exiting
+2022/07/25 12:56:49 [notice] 33#33: exiting
+2022/07/25 12:56:49 [notice] 36#36: exiting
+2022/07/25 12:56:49 [notice] 34#34: exiting
+2022/07/25 12:56:49 [notice] 35#35: exiting
+2022/07/25 12:56:49 [notice] 33#33: exit
+2022/07/25 12:56:49 [notice] 31#31: exit
+2022/07/25 12:56:49 [notice] 32#32: exit
+2022/07/25 12:56:49 [notice] 34#34: exit
+2022/07/25 12:56:49 [notice] 35#35: exit
+2022/07/25 12:56:49 [notice] 36#36: exit
+2022/07/25 12:56:49 [notice] 37#37: gracefully shutting down
+2022/07/25 12:56:49 [notice] 37#37: exiting
+2022/07/25 12:56:49 [notice] 37#37: exit
+2022/07/25 12:56:49 [notice] 38#38: gracefully shutting down
+2022/07/25 12:56:49 [notice] 38#38: exiting
+2022/07/25 12:56:49 [notice] 38#38: exit
+2022/07/25 12:56:49 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/07/25 12:56:49 [notice] 1#1: worker process 31 exited with code 0
+2022/07/25 12:56:49 [notice] 1#1: worker process 32 exited with code 0
+2022/07/25 12:56:49 [notice] 1#1: worker process 35 exited with code 0
+2022/07/25 12:56:49 [notice] 1#1: worker process 37 exited with code 0
+2022/07/25 12:56:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/25 12:56:49 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/07/25 12:56:49 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/07/25 12:56:49 [notice] 1#1: worker process 33 exited with code 0
+2022/07/25 12:56:49 [notice] 1#1: worker process 36 exited with code 0
+2022/07/25 12:56:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/25 12:56:49 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/07/25 12:56:49 [notice] 1#1: worker process 34 exited with code 0
+2022/07/25 12:56:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/25 12:56:49 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2022/07/25 12:56:49 [notice] 1#1: worker process 38 exited with code 0
+2022/07/25 12:56:49 [notice] 1#1: exit
+2022/07/26 08:00:00 [notice] 1#1: using the "epoll" event method
+2022/07/26 08:00:00 [notice] 1#1: nginx/1.20.0
+2022/07/26 08:00:00 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/26 08:00:00 [notice] 1#1: OS: Linux 5.15.0-41-generic
+2022/07/26 08:00:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/26 08:00:00 [notice] 1#1: start worker processes
+2022/07/26 08:00:00 [notice] 1#1: start worker process 31
+2022/07/26 08:00:00 [notice] 1#1: start worker process 32
+2022/07/26 08:00:00 [notice] 1#1: start worker process 33
+2022/07/26 08:00:00 [notice] 1#1: start worker process 34
+2022/07/26 08:00:00 [notice] 1#1: start worker process 35
+2022/07/26 08:00:00 [notice] 1#1: start worker process 36
+2022/07/26 08:00:00 [notice] 1#1: start worker process 37
+2022/07/26 08:00:00 [notice] 1#1: start worker process 38
+2022/07/26 09:06:54 [error] 31#31: *17 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Algo" not found in /var/www/html/public/php_OO/Auto_load/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Auto_load/index.php on line 15" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Auto_load/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 09:06:55 [error] 31#31: *17 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Algo" not found in /var/www/html/public/php_OO/Auto_load/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Auto_load/index.php on line 15" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Auto_load/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 09:10:04 [error] 31#31: *20 FastCGI sent in stderr: "PHP message: PHP Warning:  require(autoloader.php): Failed to open stream: No such file or directory in /var/www/html/public/php_OO/Auto_load/index.php on line 3PHP message: PHP Fatal error:  Uncaught Error: Failed opening required 'autoloader.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/php_OO/Auto_load/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Auto_load/index.php on line 3" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Auto_load/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 09:26:43 [error] 31#31: *24 FastCGI sent in stderr: "PHP message: PHP Warning:  require(classes/Matematica.php): Failed to open stream: No such file or directory in /var/www/html/public/php_OO/Auto_load/autoloader.php on line 4PHP message: PHP Fatal error:  Uncaught Error: Failed opening required 'classes/Matematica.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/php_OO/Auto_load/autoloader.php:4
+Stack trace:
+#0 /var/www/html/public/php_OO/Auto_load/index.php(5): {closure}()
+#1 {main}
+  thrown in /var/www/html/public/php_OO/Auto_load/autoloader.php on line 4" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Auto_load/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 09:53:58 [error] 31#31: *26 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "matematica\Basica" not found in /var/www/html/public/php_OO/Auto_load/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Auto_load/index.php on line 5" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Auto_load/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 09:56:37 [error] 31#31: *33 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "matematica\Basica" not found in /var/www/html/public/php_OO/Auto_load/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Auto_load/index.php on line 5" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Auto_load/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:47:03 [error] 31#31: *41 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:47:17 [error] 31#31: *41 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:48:52 [error] 31#31: *44 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:48:52 [error] 31#31: *44 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:51:37 [error] 31#31: *47 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:51:38 [error] 31#31: *47 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:52:38 [error] 31#31: *47 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:52:38 [error] 31#31: *47 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:52:39 [error] 31#31: *47 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:53:46 [error] 31#31: *53 FastCGI sent in stderr: "PHP message: PHP Warning:  require(vendor\autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/php_OO/Composer/index.php on line 3PHP message: PHP Fatal error:  Uncaught Error: Failed opening required 'vendor\autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/php_OO/Composer/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 3" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:54:12 [error] 31#31: *53 FastCGI sent in stderr: "PHP message: PHP Warning:  require(vendor\autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/php_OO/Composer/index.php on line 3PHP message: PHP Fatal error:  Uncaught Error: Failed opening required 'vendor\autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/php_OO/Composer/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 3" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:54:28 [error] 31#31: *53 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:55:51 [error] 31#31: *53 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:56:09 [error] 31#31: *53 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:56:09 [error] 31#31: *53 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 11:00:20 [error] 31#31: *61 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 11:00:20 [error] 31#31: *61 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 11:01:45 [error] 31#31: *64 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 11:04:22 [error] 31#31: *66 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 11:08:45 [error] 31#31: *68 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 11:08:46 [error] 31#31: *68 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 11:08:46 [error] 31#31: *68 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 11:08:46 [error] 31#31: *68 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 11:25:31 [error] 31#31: *78 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 12:29:56 [error] 31#31: *107 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[HYT00]: [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired in /var/www/html/public/php_OO/Banco_Dados/index.php:4
+Stack trace:
+#0 /var/www/html/public/php_OO/Banco_Dados/index.php(4): PDO->__construct()
+#1 {main}
+  thrown in /var/www/html/public/php_OO/Banco_Dados/index.php on line 4" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Banco_Dados/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 12:33:14 [error] 31#31: *112 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[HYT00]: [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired in /var/www/html/public/php_OO/Banco_Dados/index.php:4
+Stack trace:
+#0 /var/www/html/public/php_OO/Banco_Dados/index.php(4): PDO->__construct()
+#1 {main}
+  thrown in /var/www/html/public/php_OO/Banco_Dados/index.php on line 4" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Banco_Dados/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 12:34:17 [error] 31#31: *112 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[IMSSP]: An invalid keyword 'dbname' was specified in the DSN string. in /var/www/html/public/php_OO/Banco_Dados/index.php:4
+Stack trace:
+#0 /var/www/html/public/php_OO/Banco_Dados/index.php(4): PDO->__construct()
+#1 {main}
+  thrown in /var/www/html/public/php_OO/Banco_Dados/index.php on line 4" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Banco_Dados/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 12:34:42 [error] 31#31: *112 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[IMSSP]: An invalid keyword 'dbname' was specified in the DSN string. in /var/www/html/public/php_OO/Banco_Dados/index.php:4
+Stack trace:
+#0 /var/www/html/public/php_OO/Banco_Dados/index.php(4): PDO->__construct()
+#1 {main}
+  thrown in /var/www/html/public/php_OO/Banco_Dados/index.php on line 4" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Banco_Dados/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 12:34:43 [error] 31#31: *112 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[IMSSP]: An invalid keyword 'dbname' was specified in the DSN string. in /var/www/html/public/php_OO/Banco_Dados/index.php:4
+Stack trace:
+#0 /var/www/html/public/php_OO/Banco_Dados/index.php(4): PDO->__construct()
+#1 {main}
+  thrown in /var/www/html/public/php_OO/Banco_Dados/index.php on line 4" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Banco_Dados/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 12:37:22 [error] 31#31: *117 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[IMSSP]: An invalid keyword 'server; dbname' was specified in the DSN string. in /var/www/html/public/php_OO/Banco_Dados/index.php:4
+Stack trace:
+#0 /var/www/html/public/php_OO/Banco_Dados/index.php(4): PDO->__construct()
+#1 {main}
+  thrown in /var/www/html/public/php_OO/Banco_Dados/index.php on line 4" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Banco_Dados/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 12:39:08 [error] 31#31: *119 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[IMSSP]: An invalid keyword 'server; dbname' was specified in the DSN string. in /var/www/html/public/php_OO/Banco_Dados/index.php:4
+Stack trace:
+#0 /var/www/html/public/php_OO/Banco_Dados/index.php(4): PDO->__construct()
+#1 {main}
+  thrown in /var/www/html/public/php_OO/Banco_Dados/index.php on line 4" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Banco_Dados/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 12:57:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/26 12:57:07 [notice] 31#31: gracefully shutting down
+2022/07/26 12:57:07 [notice] 33#33: gracefully shutting down
+2022/07/26 12:57:07 [notice] 31#31: exiting
+2022/07/26 12:57:07 [notice] 35#35: gracefully shutting down
+2022/07/26 12:57:07 [notice] 34#34: gracefully shutting down
+2022/07/26 12:57:07 [notice] 36#36: gracefully shutting down
+2022/07/26 12:57:07 [notice] 32#32: gracefully shutting down
+2022/07/26 12:57:07 [notice] 33#33: exiting
+2022/07/26 12:57:07 [notice] 38#38: gracefully shutting down
+2022/07/26 12:57:07 [notice] 35#35: exiting
+2022/07/26 12:57:07 [notice] 34#34: exiting
+2022/07/26 12:57:07 [notice] 36#36: exiting
+2022/07/26 12:57:07 [notice] 32#32: exiting
+2022/07/26 12:57:07 [notice] 38#38: exiting
+2022/07/26 12:57:07 [notice] 31#31: exit
+2022/07/26 12:57:07 [notice] 35#35: exit
+2022/07/26 12:57:07 [notice] 33#33: exit
+2022/07/26 12:57:07 [notice] 36#36: exit
+2022/07/26 12:57:07 [notice] 34#34: exit
+2022/07/26 12:57:07 [notice] 32#32: exit
+2022/07/26 12:57:07 [notice] 38#38: exit
+2022/07/26 12:57:07 [notice] 37#37: gracefully shutting down
+2022/07/26 12:57:07 [notice] 37#37: exiting
+2022/07/26 12:57:07 [notice] 37#37: exit
+2022/07/26 12:57:07 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/07/26 12:57:07 [notice] 1#1: worker process 31 exited with code 0
+2022/07/26 12:57:07 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/26 12:57:07 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/07/26 12:57:07 [notice] 1#1: worker process 33 exited with code 0
+2022/07/26 12:57:07 [notice] 1#1: worker process 34 exited with code 0
+2022/07/26 12:57:07 [notice] 1#1: worker process 32 exited with code 0
+2022/07/26 12:57:07 [notice] 1#1: worker process 35 exited with code 0
+2022/07/26 12:57:07 [notice] 1#1: worker process 37 exited with code 0
+2022/07/26 12:57:07 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/26 12:57:07 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/07/26 12:57:07 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/07/26 12:57:07 [notice] 1#1: worker process 36 exited with code 0
+2022/07/26 12:57:07 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/26 12:57:07 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2022/07/26 12:57:07 [notice] 1#1: worker process 38 exited with code 0
+2022/07/26 12:57:07 [notice] 1#1: exit
+2022/07/27 08:11:12 [notice] 1#1: using the "epoll" event method
+2022/07/27 08:11:12 [notice] 1#1: nginx/1.20.0
+2022/07/27 08:11:12 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/27 08:11:12 [notice] 1#1: OS: Linux 5.15.0-41-generic
+2022/07/27 08:11:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/27 08:11:12 [notice] 1#1: start worker processes
+2022/07/27 08:11:12 [notice] 1#1: start worker process 31
+2022/07/27 08:11:12 [notice] 1#1: start worker process 32
+2022/07/27 08:11:12 [notice] 1#1: start worker process 33
+2022/07/27 08:11:12 [notice] 1#1: start worker process 34
+2022/07/27 08:11:12 [notice] 1#1: start worker process 35
+2022/07/27 08:11:12 [notice] 1#1: start worker process 36
+2022/07/27 08:11:12 [notice] 1#1: start worker process 37
+2022/07/27 08:11:12 [notice] 1#1: start worker process 38
+2022/07/27 09:55:00 [error] 31#31: *54 directory index of "/var/www/html/public/" is forbidden, client: 10.24.24.170, server: representante.karina.test, request: "GET / HTTP/1.1", host: "10.24.24.188"
+2022/07/27 10:04:22 [error] 31#31: *74 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /CRUD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost", referrer: "http://localhost/CRUD/adicionar.php"
+2022/07/27 10:07:05 [error] 31#31: *76 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /CRUD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost", referrer: "http://localhost/CRUD/adicionar.php"
+2022/07/27 10:07:45 [error] 31#31: *76 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /CRUD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost", referrer: "http://localhost/CRUD/adicionar.php"
+2022/07/27 10:08:06 [error] 31#31: *76 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /CRUD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost", referrer: "http://localhost/CRUD/adicionar.php"
+2022/07/27 10:08:06 [error] 31#31: *76 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /CRUD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost", referrer: "http://localhost/CRUD/adicionar.php"
+2022/07/27 10:10:07 [error] 31#31: *76 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $sql in /var/www/html/public/CRUD/index.php on line 9PHP message: PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on null in /var/www/html/public/CRUD/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/CRUD/index.php on line 9" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /CRUD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost", referrer: "http://localhost/CRUD/adicionar.php"
+2022/07/27 12:44:13 [error] 31#31: *118 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot use object of type Usuario as array in /var/www/html/public/CRUD_DAO/index.php:26
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/CRUD_DAO/index.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /CRUD_DAO/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost"
+2022/07/27 12:45:13 [error] 31#31: *118 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot use object of type Usuario as array in /var/www/html/public/CRUD_DAO/index.php:26
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/CRUD_DAO/index.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /CRUD_DAO/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost"
+2022/07/27 12:46:15 [error] 31#31: *118 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot use object of type Usuario as array in /var/www/html/public/CRUD_DAO/index.php:26
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/CRUD_DAO/index.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /CRUD_DAO/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost"
+2022/07/27 12:47:28 [error] 31#31: *122 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot use object of type Usuario as array in /var/www/html/public/CRUD_DAO/index.php:26
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/CRUD_DAO/index.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /CRUD_DAO/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost"
+2022/07/27 12:52:50 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/27 12:52:50 [notice] 31#31: gracefully shutting down
+2022/07/27 12:52:50 [notice] 32#32: gracefully shutting down
+2022/07/27 12:52:50 [notice] 35#35: gracefully shutting down
+2022/07/27 12:52:50 [notice] 31#31: exiting
+2022/07/27 12:52:50 [notice] 36#36: gracefully shutting down
+2022/07/27 12:52:50 [notice] 32#32: exiting
+2022/07/27 12:52:50 [notice] 33#33: gracefully shutting down
+2022/07/27 12:52:50 [notice] 34#34: gracefully shutting down
+2022/07/27 12:52:50 [notice] 35#35: exiting
+2022/07/27 12:52:50 [notice] 36#36: exiting
+2022/07/27 12:52:50 [notice] 33#33: exiting
+2022/07/27 12:52:50 [notice] 34#34: exiting
+2022/07/27 12:52:50 [notice] 31#31: exit
+2022/07/27 12:52:50 [notice] 32#32: exit
+2022/07/27 12:52:50 [notice] 35#35: exit
+2022/07/27 12:52:50 [notice] 36#36: exit
+2022/07/27 12:52:50 [notice] 34#34: exit
+2022/07/27 12:52:50 [notice] 33#33: exit
+2022/07/27 12:52:50 [notice] 37#37: gracefully shutting down
+2022/07/27 12:52:50 [notice] 38#38: gracefully shutting down
+2022/07/27 12:52:50 [notice] 37#37: exiting
+2022/07/27 12:52:50 [notice] 38#38: exiting
+2022/07/27 12:52:50 [notice] 37#37: exit
+2022/07/27 12:52:50 [notice] 38#38: exit
+2022/07/27 12:52:50 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/07/27 12:52:50 [notice] 1#1: worker process 36 exited with code 0
+2022/07/27 12:52:50 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/27 12:52:50 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/07/27 12:52:50 [notice] 1#1: worker process 32 exited with code 0
+2022/07/27 12:52:50 [notice] 1#1: worker process 33 exited with code 0
+2022/07/27 12:52:50 [notice] 1#1: worker process 34 exited with code 0
+2022/07/27 12:52:50 [notice] 1#1: worker process 35 exited with code 0
+2022/07/27 12:52:50 [notice] 1#1: worker process 37 exited with code 0
+2022/07/27 12:52:50 [notice] 1#1: worker process 38 exited with code 0
+2022/07/27 12:52:50 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2022/07/27 12:52:50 [notice] 1#1: worker process 31 exited with code 0
+2022/07/27 12:52:50 [notice] 1#1: exit
+2022/07/28 08:00:07 [notice] 1#1: using the "epoll" event method
+2022/07/28 08:00:07 [notice] 1#1: nginx/1.20.0
+2022/07/28 08:00:07 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/28 08:00:07 [notice] 1#1: OS: Linux 5.15.0-41-generic
+2022/07/28 08:00:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/28 08:00:07 [notice] 1#1: start worker processes
+2022/07/28 08:00:07 [notice] 1#1: start worker process 31
+2022/07/28 08:00:07 [notice] 1#1: start worker process 32
+2022/07/28 08:00:07 [notice] 1#1: start worker process 33
+2022/07/28 08:00:07 [notice] 1#1: start worker process 34
+2022/07/28 08:00:07 [notice] 1#1: start worker process 35
+2022/07/28 08:00:07 [notice] 1#1: start worker process 36
+2022/07/28 08:00:07 [notice] 1#1: start worker process 37
+2022/07/28 08:00:07 [notice] 1#1: start worker process 38
+2022/07/28 08:42:59 [error] 31#31: *3 FastCGI sent in stderr: "PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 53PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 54PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 55" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "POST /CRUD_DAO/adicionar_action.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost", referrer: "http://localhost/CRUD_DAO/adicionar.php"
+2022/07/28 08:43:33 [error] 31#31: *3 FastCGI sent in stderr: "PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 53PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 54PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 55" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "POST /CRUD_DAO/adicionar_action.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost", referrer: "http://localhost/CRUD_DAO/adicionar.php"
+2022/07/28 08:49:34 [error] 31#31: *14 FastCGI sent in stderr: "PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 53PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 54PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 55" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "POST /CRUD_DAO/adicionar_action.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost", referrer: "http://localhost/CRUD_DAO/adicionar.php"
+2022/07/28 08:55:53 [error] 31#31: *19 FastCGI sent in stderr: "PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 53PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 54PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 55" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "POST /CRUD_DAO/adicionar_action.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost", referrer: "http://localhost/CRUD_DAO/adicionar.php"
+2022/07/28 08:58:51 [error] 31#31: *22 FastCGI sent in stderr: "PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 53PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 54PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 55" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "POST /CRUD_DAO/adicionar_action.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost", referrer: "http://localhost/CRUD_DAO/adicionar.php"
+2022/07/28 09:14:44 [error] 31#31: *30 FastCGI sent in stderr: "PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 53PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 54PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 55" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "POST /CRUD_DAO/adicionar_action.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost", referrer: "http://localhost/CRUD_DAO/adicionar.php"
+2022/07/28 09:16:54 [error] 31#31: *34 FastCGI sent in stderr: "PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 53PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 54PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 55" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "POST /CRUD_DAO/adicionar_action.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost", referrer: "http://localhost/CRUD_DAO/adicionar.php"
+2022/07/28 09:52:25 [error] 31#31: *45 FastCGI sent in stderr: "PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 53PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 54PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 55" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "POST /CRUD_DAO/adicionar_action.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost", referrer: "http://localhost/CRUD_DAO/adicionar.php"
+2022/07/28 10:04:02 [error] 31#31: *50 FastCGI sent in stderr: "PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 53PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 54PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 55" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "POST /CRUD_DAO/adicionar_action.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost", referrer: "http://localhost/CRUD_DAO/adicionar.php"
+2022/07/28 10:05:25 [error] 31#31: *56 FastCGI sent in stderr: "PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 53PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 54PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 55" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "POST /CRUD_DAO/adicionar_action.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost", referrer: "http://localhost/CRUD_DAO/adicionar.php"
+2022/07/28 10:05:39 [error] 31#31: *56 FastCGI sent in stderr: "PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 53PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 54PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 55" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "POST /CRUD_DAO/adicionar_action.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost", referrer: "http://localhost/CRUD_DAO/adicionar.php"
+2022/07/28 10:06:00 [error] 31#31: *56 FastCGI sent in stderr: "PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 53PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 54PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 55" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "POST /CRUD_DAO/adicionar_action.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost", referrer: "http://localhost/CRUD_DAO/adicionar.php"
+2022/07/28 10:06:32 [error] 31#31: *56 FastCGI sent in stderr: "PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 53PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 54PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 55" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "POST /CRUD_DAO/adicionar_action.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost", referrer: "http://localhost/CRUD_DAO/adicionar.php"
+2022/07/28 10:11:14 [error] 31#31: *73 FastCGI sent in stderr: "PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 53PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 54PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 55" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "POST /CRUD_DAO/adicionar_action.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost", referrer: "http://localhost/CRUD_DAO/adicionar.php"
+2022/07/28 10:16:05 [error] 31#31: *76 FastCGI sent in stderr: "PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 52PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 53PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 54" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "POST /CRUD_DAO/adicionar_action.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost", referrer: "http://localhost/CRUD_DAO/adicionar.php"
+2022/07/28 10:16:50 [error] 31#31: *76 FastCGI sent in stderr: "PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 53PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 54PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 55" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "POST /CRUD_DAO/adicionar_action.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost", referrer: "http://localhost/CRUD_DAO/adicionar.php"
+2022/07/28 10:17:37 [error] 31#31: *76 FastCGI sent in stderr: "PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 54PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 55PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 56" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "POST /CRUD_DAO/adicionar_action.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost", referrer: "http://localhost/CRUD_DAO/adicionar.php"
+2022/07/28 10:19:35 [error] 31#31: *83 FastCGI sent in stderr: "PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 54PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 55PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 56" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "POST /CRUD_DAO/adicionar_action.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost", referrer: "http://localhost/CRUD_DAO/adicionar.php"
+2022/07/28 10:21:48 [error] 31#31: *86 FastCGI sent in stderr: "PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 53PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 54PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 55" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "POST /CRUD_DAO/adicionar_action.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost", referrer: "http://localhost/CRUD_DAO/adicionar.php"
+2022/07/28 10:22:53 [error] 31#31: *86 FastCGI sent in stderr: "PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 53PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 54PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 55" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "POST /CRUD_DAO/adicionar_action.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost", referrer: "http://localhost/CRUD_DAO/adicionar.php"
+2022/07/28 10:26:42 [error] 31#31: *95 FastCGI sent in stderr: "PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 53PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 54PHP message: PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/public/CRUD_DAO/dao/UsuarioDaoSqlServer.php on line 55" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "POST /CRUD_DAO/adicionar_action.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost", referrer: "http://localhost/CRUD_DAO/adicionar.php"
+2022/07/28 10:46:58 [error] 31#31: *101 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to a member function getId() on array in /var/www/html/public/CRUD_DAO/editar.php:23
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/CRUD_DAO/editar.php on line 23" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /CRUD_DAO/editar.php?id=6 HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost", referrer: "http://localhost/CRUD_DAO/index.php"
+2022/07/28 12:57:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/28 12:57:07 [notice] 31#31: gracefully shutting down
+2022/07/28 12:57:07 [notice] 34#34: gracefully shutting down
+2022/07/28 12:57:07 [notice] 37#37: gracefully shutting down
+2022/07/28 12:57:07 [notice] 35#35: gracefully shutting down
+2022/07/28 12:57:07 [notice] 38#38: gracefully shutting down
+2022/07/28 12:57:07 [notice] 32#32: gracefully shutting down
+2022/07/28 12:57:07 [notice] 31#31: exiting
+2022/07/28 12:57:07 [notice] 34#34: exiting
+2022/07/28 12:57:07 [notice] 37#37: exiting
+2022/07/28 12:57:07 [notice] 35#35: exiting
+2022/07/28 12:57:07 [notice] 38#38: exiting
+2022/07/28 12:57:07 [notice] 32#32: exiting
+2022/07/28 12:57:07 [notice] 31#31: exit
+2022/07/28 12:57:07 [notice] 34#34: exit
+2022/07/28 12:57:07 [notice] 38#38: exit
+2022/07/28 12:57:07 [notice] 37#37: exit
+2022/07/28 12:57:07 [notice] 35#35: exit
+2022/07/28 12:57:07 [notice] 33#33: gracefully shutting down
+2022/07/28 12:57:07 [notice] 33#33: exiting
+2022/07/28 12:57:07 [notice] 33#33: exit
+2022/07/28 12:57:07 [notice] 36#36: gracefully shutting down
+2022/07/28 12:57:07 [notice] 36#36: exiting
+2022/07/28 12:57:07 [notice] 36#36: exit
+2022/07/28 12:57:07 [notice] 32#32: exit
+2022/07/28 12:57:07 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2022/07/28 12:57:07 [notice] 1#1: worker process 38 exited with code 0
+2022/07/28 12:57:07 [notice] 1#1: worker process 31 exited with code 0
+2022/07/28 12:57:07 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/28 12:57:07 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/07/28 12:57:07 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/07/28 12:57:07 [notice] 1#1: worker process 32 exited with code 0
+2022/07/28 12:57:07 [notice] 1#1: worker process 37 exited with code 0
+2022/07/28 12:57:07 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/28 12:57:07 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/07/28 12:57:07 [notice] 1#1: worker process 36 exited with code 0
+2022/07/28 12:57:07 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/28 12:57:07 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/07/28 12:57:07 [notice] 1#1: worker process 33 exited with code 0
+2022/07/28 12:57:07 [notice] 1#1: worker process 35 exited with code 0
+2022/07/28 12:57:07 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/28 12:57:07 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/07/28 12:57:07 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/07/28 12:57:07 [notice] 1#1: worker process 34 exited with code 0
+2022/07/28 12:57:07 [notice] 1#1: exit
+2022/07/29 08:06:08 [notice] 1#1: using the "epoll" event method
+2022/07/29 08:06:08 [notice] 1#1: nginx/1.20.0
+2022/07/29 08:06:08 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/29 08:06:08 [notice] 1#1: OS: Linux 5.15.0-41-generic
+2022/07/29 08:06:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/29 08:06:08 [notice] 1#1: start worker processes
+2022/07/29 08:06:08 [notice] 1#1: start worker process 31
+2022/07/29 08:06:08 [notice] 1#1: start worker process 32
+2022/07/29 08:06:08 [notice] 1#1: start worker process 33
+2022/07/29 08:06:08 [notice] 1#1: start worker process 34
+2022/07/29 08:06:08 [notice] 1#1: start worker process 35
+2022/07/29 08:06:08 [notice] 1#1: start worker process 36
+2022/07/29 08:06:08 [notice] 1#1: start worker process 37
+2022/07/29 08:06:08 [notice] 1#1: start worker process 38
+2022/07/29 08:22:44 [error] 31#31: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagejpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:23:08 [error] 31#31: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagejpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:25:29 [error] 31#31: *8 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagejpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:26:18 [error] 31#31: *10 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagejpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:31:53 [error] 31#31: *12 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagejpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:32:00 [error] 31#31: *12 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagejpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:32:14 [error] 31#31: *12 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagejpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:36:57 [error] 31#31: *16 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagejpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:40:05 [error] 31#31: *21 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagejpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:40:37 [error] 31#31: *21 FastCGI sent in stderr: "PHP message: PHP Warning:  imagepng(): gd-png error: compression level must be 0 through 9 in /var/www/html/public/Manipulacao_imagensGD/index.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:40:58 [error] 31#31: *21 FastCGI sent in stderr: "PHP message: PHP Warning:  imagepng(): gd-png error: compression level must be 0 through 9 in /var/www/html/public/Manipulacao_imagensGD/index.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:42:57 [error] 31#31: *25 FastCGI sent in stderr: "PHP message: PHP Warning:  imagepng(): gd-png error: compression level must be 0 through 9 in /var/www/html/public/Manipulacao_imagensGD/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:43:06 [error] 31#31: *25 FastCGI sent in stderr: "PHP message: PHP Warning:  imagepng(): gd-png error: compression level must be 0 through 9 in /var/www/html/public/Manipulacao_imagensGD/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:43:33 [error] 31#31: *25 FastCGI sent in stderr: "PHP message: PHP Warning:  imagepng(): gd-png error: compression level must be 0 through 9 in /var/www/html/public/Manipulacao_imagensGD/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 09:20:57 [error] 31#31: *36 FastCGI sent in stderr: "PHP message: PHP Warning:  getimagesize(paisagem.jpg): Failed to open stream: No such file or directory in /var/www/html/public/Manipulacao_imagensGD/index.php on line 24PHP message: PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /var/www/html/public/Manipulacao_imagensGD/index.php:26
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 09:30:04 [error] 31#31: *39 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:41
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 41" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 09:30:20 [error] 31#31: *39 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:41
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 41" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 09:31:23 [error] 31#31: *39 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:41
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 41" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 09:31:23 [error] 31#31: *39 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:41
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 41" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 09:31:34 [error] 31#31: *39 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:41
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 41" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 09:49:10 [error] 31#31: *45 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:41
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 41" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 09:49:11 [error] 31#31: *45 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:41
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 41" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 09:50:50 [error] 31#31: *48 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagejpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:46
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 46" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 09:52:01 [error] 31#31: *50 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagejpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:46
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 46" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 09:52:27 [error] 31#31: *50 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagejpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:46
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 46" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 12:24:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/29 12:24:36 [notice] 31#31: gracefully shutting down
+2022/07/29 12:24:36 [notice] 32#32: gracefully shutting down
+2022/07/29 12:24:36 [notice] 33#33: gracefully shutting down
+2022/07/29 12:24:36 [notice] 34#34: gracefully shutting down
+2022/07/29 12:24:36 [notice] 35#35: gracefully shutting down
+2022/07/29 12:24:36 [notice] 32#32: exiting
+2022/07/29 12:24:36 [notice] 38#38: gracefully shutting down
+2022/07/29 12:24:36 [notice] 37#37: gracefully shutting down
+2022/07/29 12:24:36 [notice] 33#33: exiting
+2022/07/29 12:24:36 [notice] 34#34: exiting
+2022/07/29 12:24:36 [notice] 35#35: exiting
+2022/07/29 12:24:36 [notice] 38#38: exiting
+2022/07/29 12:24:36 [notice] 37#37: exiting
+2022/07/29 12:24:36 [notice] 36#36: gracefully shutting down
+2022/07/29 12:24:36 [notice] 36#36: exiting
+2022/07/29 12:24:36 [notice] 32#32: exit
+2022/07/29 12:24:36 [notice] 34#34: exit
+2022/07/29 12:24:36 [notice] 33#33: exit
+2022/07/29 12:24:36 [notice] 38#38: exit
+2022/07/29 12:24:36 [notice] 37#37: exit
+2022/07/29 12:24:36 [notice] 35#35: exit
+2022/07/29 12:24:36 [notice] 36#36: exit
+2022/07/29 12:24:36 [notice] 31#31: exiting
+2022/07/29 12:24:36 [notice] 31#31: exit
+2022/07/29 12:24:36 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/07/29 12:24:36 [notice] 1#1: worker process 32 exited with code 0
+2022/07/29 12:24:36 [notice] 1#1: worker process 33 exited with code 0
+2022/07/29 12:24:36 [notice] 1#1: worker process 34 exited with code 0
+2022/07/29 12:24:36 [notice] 1#1: worker process 36 exited with code 0
+2022/07/29 12:24:36 [notice] 1#1: worker process 37 exited with code 0
+2022/07/29 12:24:36 [notice] 1#1: worker process 38 exited with code 0
+2022/07/29 12:24:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/29 12:24:36 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/07/29 12:24:36 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/07/29 12:24:36 [notice] 1#1: worker process 31 exited with code 0
+2022/07/29 12:24:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/29 12:24:36 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/07/29 12:24:36 [notice] 1#1: worker process 35 exited with code 0
+2022/07/29 12:24:36 [notice] 1#1: exit
+2022/07/29 12:27:10 [notice] 1#1: using the "epoll" event method
+2022/07/29 12:27:10 [notice] 1#1: nginx/1.20.0
+2022/07/29 12:27:10 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/29 12:27:10 [notice] 1#1: OS: Linux 5.15.0-41-generic
+2022/07/29 12:27:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/29 12:27:10 [notice] 1#1: start worker processes
+2022/07/29 12:27:10 [notice] 1#1: start worker process 31
+2022/07/29 12:27:10 [notice] 1#1: start worker process 32
+2022/07/29 12:27:10 [notice] 1#1: start worker process 33
+2022/07/29 12:27:10 [notice] 1#1: start worker process 34
+2022/07/29 12:27:10 [notice] 1#1: start worker process 35
+2022/07/29 12:27:10 [notice] 1#1: start worker process 36
+2022/07/29 12:27:10 [notice] 1#1: start worker process 37
+2022/07/29 12:27:10 [notice] 1#1: start worker process 38
+2022/07/29 12:55:00 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/29 12:55:00 [notice] 31#31: gracefully shutting down
+2022/07/29 12:55:00 [notice] 32#32: gracefully shutting down
+2022/07/29 12:55:00 [notice] 33#33: gracefully shutting down
+2022/07/29 12:55:00 [notice] 34#34: gracefully shutting down
+2022/07/29 12:55:00 [notice] 36#36: gracefully shutting down
+2022/07/29 12:55:00 [notice] 31#31: exiting
+2022/07/29 12:55:00 [notice] 38#38: gracefully shutting down
+2022/07/29 12:55:00 [notice] 32#32: exiting
+2022/07/29 12:55:00 [notice] 33#33: exiting
+2022/07/29 12:55:00 [notice] 34#34: exiting
+2022/07/29 12:55:00 [notice] 36#36: exiting
+2022/07/29 12:55:00 [notice] 38#38: exiting
+2022/07/29 12:55:00 [notice] 34#34: exit
+2022/07/29 12:55:00 [notice] 33#33: exit
+2022/07/29 12:55:00 [notice] 36#36: exit
+2022/07/29 12:55:00 [notice] 32#32: exit
+2022/07/29 12:55:00 [notice] 31#31: exit
+2022/07/29 12:55:00 [notice] 38#38: exit
+2022/07/29 12:55:00 [notice] 37#37: gracefully shutting down
+2022/07/29 12:55:00 [notice] 37#37: exiting
+2022/07/29 12:55:00 [notice] 37#37: exit
+2022/07/29 12:55:00 [notice] 35#35: gracefully shutting down
+2022/07/29 12:55:00 [notice] 35#35: exiting
+2022/07/29 12:55:00 [notice] 35#35: exit
+2022/07/29 12:55:00 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/07/29 12:55:00 [notice] 1#1: worker process 31 exited with code 0
+2022/07/29 12:55:00 [notice] 1#1: worker process 35 exited with code 0
+2022/07/29 12:55:00 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/29 12:55:00 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2022/07/29 12:55:00 [notice] 1#1: worker process 32 exited with code 0
+2022/07/29 12:55:00 [notice] 1#1: worker process 36 exited with code 0
+2022/07/29 12:55:00 [notice] 1#1: worker process 38 exited with code 0
+2022/07/29 12:55:00 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/29 12:55:00 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/07/29 12:55:00 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/07/29 12:55:00 [notice] 1#1: worker process 33 exited with code 0
+2022/07/29 12:55:00 [notice] 1#1: worker process 34 exited with code 0
+2022/07/29 12:55:00 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/29 12:55:00 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/07/29 12:55:00 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2022/07/29 12:55:00 [notice] 1#1: worker process 37 exited with code 0
+2022/07/29 12:55:00 [notice] 1#1: exit
+2022/08/01 08:15:25 [notice] 1#1: using the "epoll" event method
+2022/08/01 08:15:25 [notice] 1#1: nginx/1.20.0
+2022/08/01 08:15:25 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/08/01 08:15:25 [notice] 1#1: OS: Linux 5.15.0-41-generic
+2022/08/01 08:15:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/01 08:15:25 [notice] 1#1: start worker processes
+2022/08/01 08:15:25 [notice] 1#1: start worker process 31
+2022/08/01 08:15:25 [notice] 1#1: start worker process 32
+2022/08/01 08:15:25 [notice] 1#1: start worker process 33
+2022/08/01 08:15:25 [notice] 1#1: start worker process 34
+2022/08/01 08:15:25 [notice] 1#1: start worker process 35
+2022/08/01 08:15:25 [notice] 1#1: start worker process 36
+2022/08/01 08:15:25 [notice] 1#1: start worker process 37
+2022/08/01 08:15:25 [notice] 1#1: start worker process 38
+2022/08/01 12:58:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/01 12:58:44 [notice] 31#31: gracefully shutting down
+2022/08/01 12:58:44 [notice] 34#34: gracefully shutting down
+2022/08/01 12:58:44 [notice] 35#35: gracefully shutting down
+2022/08/01 12:58:44 [notice] 31#31: exiting
+2022/08/01 12:58:44 [notice] 33#33: gracefully shutting down
+2022/08/01 12:58:44 [notice] 32#32: gracefully shutting down
+2022/08/01 12:58:44 [notice] 36#36: gracefully shutting down
+2022/08/01 12:58:44 [notice] 34#34: exiting
+2022/08/01 12:58:44 [notice] 35#35: exiting
+2022/08/01 12:58:44 [notice] 33#33: exiting
+2022/08/01 12:58:44 [notice] 32#32: exiting
+2022/08/01 12:58:44 [notice] 36#36: exiting
+2022/08/01 12:58:44 [notice] 31#31: exit
+2022/08/01 12:58:44 [notice] 34#34: exit
+2022/08/01 12:58:44 [notice] 35#35: exit
+2022/08/01 12:58:44 [notice] 33#33: exit
+2022/08/01 12:58:44 [notice] 32#32: exit
+2022/08/01 12:58:44 [notice] 36#36: exit
+2022/08/01 12:58:44 [notice] 37#37: gracefully shutting down
+2022/08/01 12:58:44 [notice] 37#37: exiting
+2022/08/01 12:58:44 [notice] 37#37: exit
+2022/08/01 12:58:44 [notice] 38#38: gracefully shutting down
+2022/08/01 12:58:44 [notice] 38#38: exiting
+2022/08/01 12:58:44 [notice] 38#38: exit
+2022/08/01 12:58:44 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/08/01 12:58:44 [notice] 1#1: worker process 32 exited with code 0
+2022/08/01 12:58:44 [notice] 1#1: worker process 33 exited with code 0
+2022/08/01 12:58:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/01 12:58:44 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/08/01 12:58:44 [notice] 1#1: worker process 36 exited with code 0
+2022/08/01 12:58:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/01 12:58:44 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/08/01 12:58:44 [notice] 1#1: worker process 31 exited with code 0
+2022/08/01 12:58:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/01 12:58:44 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/08/01 12:58:44 [notice] 1#1: worker process 34 exited with code 0
+2022/08/01 12:58:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/01 12:58:44 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2022/08/01 12:58:44 [notice] 1#1: worker process 37 exited with code 0
+2022/08/01 12:58:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/01 12:58:44 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2022/08/01 12:58:44 [notice] 1#1: worker process 38 exited with code 0
+2022/08/01 12:58:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/01 12:58:45 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/08/01 12:58:45 [notice] 1#1: worker process 35 exited with code 0
+2022/08/01 12:58:45 [notice] 1#1: exit
+2022/08/02 08:07:21 [notice] 1#1: using the "epoll" event method
+2022/08/02 08:07:21 [notice] 1#1: nginx/1.20.0
+2022/08/02 08:07:21 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/08/02 08:07:21 [notice] 1#1: OS: Linux 5.15.0-41-generic
+2022/08/02 08:07:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/02 08:07:21 [notice] 1#1: start worker processes
+2022/08/02 08:07:21 [notice] 1#1: start worker process 31
+2022/08/02 08:07:21 [notice] 1#1: start worker process 32
+2022/08/02 08:07:21 [notice] 1#1: start worker process 33
+2022/08/02 08:07:21 [notice] 1#1: start worker process 34
+2022/08/02 08:07:21 [notice] 1#1: start worker process 35
+2022/08/02 08:07:21 [notice] 1#1: start worker process 36
+2022/08/02 08:07:21 [notice] 1#1: start worker process 37
+2022/08/02 08:07:21 [notice] 1#1: start worker process 38

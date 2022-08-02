@@ -1,0 +1,1 @@
+Projeto de um Quiz, Utilizando os conhecimentos de conceitos como funções,arrays, seletores, eventos, etc. Tudo utilizando Jquery.
