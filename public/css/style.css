@@ -6,6 +6,7 @@ body {
     padding: 0;
     margin: 0;
     text-align: center;
+    background-color: #FFFAF0;
 }
 
 #quiz {
@@ -17,14 +18,25 @@ button {
     display: block;
     width: 300px;
     padding: 10px;
+    border: none;
 }
 
 .resposta {
     margin: auto auto;
     margin-bottom: 1%;
+    cursor: pointer;
+    background-color: #ADD8E6;
 }
 
-#confirm{
+.resposta:hover {
+    background-color: #FFD700;
+}
+
+.resposta.selecionada {
+    background-color: #1E90FF;
+}
+
+#confirm {
     margin: auto auto;
     margin-top: 5%;
     background-color: #228B22;
@@ -34,6 +46,43 @@ button {
     color: #ffff;
 }
 
-#confirm:hover{
+#confirm:hover {
     background-color: #008000;
+}
+
+.errada {
+    background: #ff0000;
+    color: #ffff;
+}
+
+.correta {
+    background: #32CD32;
+    color: #ffff;
+    animation:piscaCerto 0.8s infinite;
+}
+
+@keyframes piscaCerto{
+    0%,
+    49%{
+        background: #32CD32;
+    }
+    50%,
+    100%{
+        background: #228B22;
+    }
+}
+
+#status{
+    padding: 5%;   
+}
+
+#novoJogo{
+    background: #000;
+    color: #ffff;
+    margin: auto auto;
+    cursor: pointer;
+}
+
+.oculto{
+    display: none;
 }

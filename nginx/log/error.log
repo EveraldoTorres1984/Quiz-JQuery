@@ -1545,3 +1545,17 @@ Stack trace:
 2022/08/02 08:07:21 [notice] 1#1: start worker process 36
 2022/08/02 08:07:21 [notice] 1#1: start worker process 37
 2022/08/02 08:07:21 [notice] 1#1: start worker process 38
+2022/08/03 08:02:46 [notice] 1#1: using the "epoll" event method
+2022/08/03 08:02:46 [notice] 1#1: nginx/1.20.0
+2022/08/03 08:02:46 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/08/03 08:02:46 [notice] 1#1: OS: Linux 5.15.0-43-generic
+2022/08/03 08:02:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/03 08:02:46 [notice] 1#1: start worker processes
+2022/08/03 08:02:46 [notice] 1#1: start worker process 31
+2022/08/03 08:02:46 [notice] 1#1: start worker process 32
+2022/08/03 08:02:46 [notice] 1#1: start worker process 33
+2022/08/03 08:02:46 [notice] 1#1: start worker process 34
+2022/08/03 08:02:46 [notice] 1#1: start worker process 35
+2022/08/03 08:02:46 [notice] 1#1: start worker process 36
+2022/08/03 08:02:46 [notice] 1#1: start worker process 37
+2022/08/03 08:02:46 [notice] 1#1: start worker process 38
